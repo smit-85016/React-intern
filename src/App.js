@@ -11,7 +11,7 @@ import Resume from './Resume';
 import TodoList from './TodoList';
 import Users from './Users';
 import BusinessCardCall from './Components/BusinessCardCall';
-import ImageInput from './ImageInput';
+import Notes from './Components/Notes';
 
 function App() {
   return (
@@ -29,7 +29,7 @@ function App() {
             <Route path="/todolist" element={<TodoList /> } />
             <Route path="/users" element={<Users /> } />
             <Route path="/BusinessCardCall" element={<BusinessCardCall /> } />
-            <Route path="/ImageInput" element={<ImageInput /> } />
+            <Route path="/Notes" element={<Notes /> } />
         </Routes>
       </BrowserRouter>
 
