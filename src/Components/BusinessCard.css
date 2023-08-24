@@ -1,0 +1,66 @@
+/* BusinessCard Css */
+
+.BusinessCard1 {
+    border: 2px solid black;
+    padding: 7px;
+    margin: 50px;
+    background-image: url('../images_copy/backgroundimage.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 230px;
+
+}
+
+.BusinessCard1 .Contact {
+    text-align: left;
+}
+
+.BS-cards {
+    display: flex;
+    justify-content: center;
+}
+
+
+.BusinessCard2 {
+    border: 2px solid black;
+    padding: 7px;
+    margin: 50px;
+    background-image: url('../images_copy/backgroundimage2.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 230px;
+}
+
+.BusinessCard2 .Address {
+    text-align: left;
+}
+
+.BusinessCard3 {
+    border: 2px solid black;
+    padding: 7px;
+    margin: 50px;
+    background-image: url('../images_copy/backgroundimage3.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 230px;
+
+}
+
+.Contact {
+    text-align: right;
+}
+
+.CompanyName {
+    text-align: center;
+}
+
+.Designation {
+    text-align: center;
+}
+
+.Address {
+    text-align: right;
+}
