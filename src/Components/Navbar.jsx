@@ -19,6 +19,7 @@ const Navbar = () => {
           <li><Link to="/Users  "> Users </Link></li>
           <li><Link to="/BusinessCardCall  "> BusinessCards </Link></li>
           <li><Link to="/Firebase  "> Firebase </Link></li>
+          <li><Link to="/Notes  "> Notes </Link></li>
         </ul>
       </nav>
     </>

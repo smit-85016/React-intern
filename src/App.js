@@ -12,6 +12,7 @@ import TodoList from './TodoList';
 import Users from './Users';
 import BusinessCardCall from './Components/BusinessCardCall';
 import Firebase from './Components/Firebase';
+import Notes from './Components/Notes';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
             <Route path="/users" element={<Users /> } />
             <Route path="/BusinessCardCall" element={<BusinessCardCall /> } />
             <Route path="/Firebase" element={<Firebase /> } />
+            <Route path="/Notes" element={<Notes /> } />
         </Routes>
       </BrowserRouter>
 
